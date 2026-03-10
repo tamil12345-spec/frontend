@@ -4,7 +4,7 @@ import axios from 'axios';
 const api = axios.create({
   baseURL: 'https://depoly-backend-qyda.onrender.com/api',
   headers: { 'Content-Type': 'application/json' },
-  timeout: 10000,
+  timeout: 60000,
 });
 
 // ── Attach JWT token to every request ────────────────────────
