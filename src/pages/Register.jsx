@@ -29,6 +29,8 @@ export default function Register() {
     setApiError('');
   };
 
+
+  
   const handleSubmit = async () => {
     const errs = {};
     const nameErr    = validateName(form.name);
