@@ -13,7 +13,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
-  "proxy": "https://back-tjiz.onrender.com",
+  "proxy": "https://depoly-backend-qyda.onrender.com/",
   "browserslist": {
     "production": [">0.2%", "not dead"],
     "development": ["last 1 chrome version"]
